@@ -3,6 +3,16 @@
     font-size: 13px;
   }
 
+  #bootstrap-overrides #source a {
+    color: black;
+    font-weight: 500;
+  }
+
+  #bootstrap-overrides .list-group li a {
+    font-family: Roboto;
+    font-weight: 300;
+  }
+
   #bootstrap-overrides {
     outline:none;
   }
@@ -13,6 +23,7 @@
     margin-bottom: 5px;
     font-family: Roboto;
     color: #969DA1;
+    font-weight: 300;
   }
 
   #bootstrap-overrides h4 {
@@ -31,6 +42,11 @@
 
   #bootstrap-overrides h5 {
     margin-bottom: 5px;
+  }
+
+  #bootstrap-overrides .main { 
+    cursor: pointer; 
+    cursor: hand; 
   }
 
   #bootstrap-overrides .dropdown .dropdown-menu {
@@ -73,26 +89,54 @@
  
   #bootstrap-overrides h2 {
     font-size: 28px;
-    font-family: Lato;
+    font-family: Oswald;
+    margin-top: 15px;
   }
 
   #bootstrap-overrides .jumbotron {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 100%;
+    margin-bottom: 25px;
+    background-color: #eee;
+    border-color: #2F6391;
+
   }
 
+  #bootstrap-overrides .panel h3 {
+    font-size: 17px;
+  }
+
+  #bootstrap-overrides #closeb {
+    width:10px;
+    float:right;
+    font-family: Roboto;
+    border-radius: 4px;
+    min-width: 90px;
+  }
+
+  #bootstrap-overrides #aboutModal a {
+    color:black;
+  }
 
   #bootstrap-overrides h3 {
     font-size: 20px;
     font-family: Abel;
   }
 
+  #bootstrap-overrides .popover-title h3 {
+    font-size: 15px;
+    font-family: Abel;
+    background-color: #fff;
+  }
+
+
   #map {
     margin-top: 0px;
     width: 80%;
     height: 600px;
     border: solid 1px #ccc;
+    min-width: 230px;
   }
 
 
@@ -100,7 +144,7 @@
     z-index: 200;
   }
 
-
+/*
   #infoWindow {
     background: #fff;
     color: #000;
@@ -116,9 +160,10 @@
     top: 540px;
     font-weight: 400;
     z-index: 300;
-  }
+  }*/
 
 #bootstrap-overrides .leaflet-popup-tip-container {
+  font-family: Lato;
   position: relative;
   text-align: left;
   left: 0%;
@@ -193,7 +238,7 @@
 }
 
 #bootstrap-overrides .btn {
-  width: 65%;
+  width: 72%;
   float: left;
   border-radius: 2px;
   padding: 10px;
@@ -212,7 +257,7 @@
   padding-bottom:10px;
   position:relative;
   list-style-type:none;
-  width: 65%;
+  width: 72%;
   font-family: Raleway;
   overflow:scroll;
 }
@@ -336,7 +381,7 @@
   border-color: #51817A;
 }
 
-/*mixed*/
+/*beauty n health*/
 #bootstrap-overrides .btn-info {
   color: #fff;
   background-color: #4A7CA8;
@@ -357,13 +402,79 @@
 #bootstrap-overrides #direct {
   background-color: #eee;
   height:142px;
+  width:72%;
   text-align: left;
-  font-family: Abel;
+  font-family: Roboto;
   font-size: 14px;
+  font-weight: 400;
   color: #000;
   opacity: .9;
+  float: left;
+  border-radius: 2px;
+  min-width: 160px;
+  overflow:scroll;
+  margin-bottom: 1px;
+}
+#bootstrap-overrides #rot {
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
+#bootstrap-overrides #rig {
+  float:center;
+}
+
+#bootstrap-overrides #info {
+  position: absolute;
+  color: #000;
+  background-color: #fff;
+  border-color: #B6B6B6;
+  bottom:2%;
+  right: 32%;
+  text-align: left;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 1;
+  float: left;
+  border-radius: 4px;
+  z-index: 200;
+  padding: 8px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-bottom: 0px;
+}
+
+
+
+
+#bootstrap-overrides .popover-content {
+  z-index: 900;
+  left:20px;
+}
+
+#bootstrap-overrides .popover-title {
+  background-color: #fff;
+  font-size: 15px;
+  border-bottom: 0px;
+}
+
+#bootstrap-overrides .popover .fade .bottom .in {
+  left: 20px;
+}
+
+
+#bootstrap-overrides #source {
+  width: 72%;
+  border-radius: 0px;
+  border:0px;
+  font-family: Abel;
+  text-align: left;
+  font-size: 12px;
+  min-width: 160px;
+  float: left;
+  margin-bottom: 0px;
+}
 
 #bootstrap-overrides #cf {
   color:#FFEDA0;
@@ -387,6 +498,8 @@
 
   vertical-align: -4px;
 }
+
+
 
 
 
