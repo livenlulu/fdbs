@@ -1,0 +1,392 @@
+  body, html {
+    font-family: Lato;
+    font-size: 13px;
+  }
+
+  #bootstrap-overrides {
+    outline:none;
+  }
+
+  #bootstrap-overrides h6 {
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: Roboto;
+    color: #969DA1;
+  }
+
+  #bootstrap-overrides h4 {
+    font-size: 11px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: Roboto;
+    color: #969DA1;
+    text-align: left;
+  }
+
+  #bootstrap-overrides li { 
+    cursor: pointer; 
+    cursor: hand; 
+  }
+
+  #bootstrap-overrides h5 {
+    margin-bottom: 5px;
+  }
+
+  #bootstrap-overrides .dropdown .dropdown-menu {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+
+  }
+
+  #bootstrap-overrides .dropdown.open .dropdown-menu {
+    max-height: 240px;
+    opacity: 1;
+    overflow:scroll;
+  }
+
+
+  textarea:hover, 
+  input:hover, 
+  textarea:active, 
+  input:active, 
+  textarea:focus, 
+  input:focus,
+  button:focus,
+  button:active,
+  button:hover
+  {
+    outline:0px !important;
+    -webkit-appearance:none;
+  }
+  
+  #bootstrap-overrides .row {
+    margin: 0px;
+  }
+ 
+  #bootstrap-overrides h2 {
+    font-size: 28px;
+    font-family: Lato;
+  }
+
+  #bootstrap-overrides .jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+  }
+
+
+  #bootstrap-overrides h3 {
+    font-size: 20px;
+    font-family: Abel;
+  }
+
+  #map {
+    margin-top: 0px;
+    width: 80%;
+    height: 600px;
+    border: solid 1px #ccc;
+  }
+
+
+  #bootstrap-overrides .leaflet-control-zoom {
+    z-index: 200;
+  }
+
+
+  #infoWindow {
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: left;
+    position: absolute;
+    font-family: Lato;
+    width: auto;
+    display: block;
+    left: 10px;
+    top: 540px;
+    font-weight: 400;
+    z-index: 300;
+  }
+
+#bootstrap-overrides .leaflet-popup-tip-container {
+  position: relative;
+  text-align: left;
+  left: 0%;
+}
+
+#bootstrap-overrides .leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 13px;
+    color: #000;
+   position: initial;
+  text-align: left;
+}
+
+.btn-group>.btn:first-child {
+    font-family: Lato;
+    font-weight: 600;
+}
+
+#custom-search-input .glyphicon-search {
+  height:0px;
+}
+
+
+
+#custom-search-input{
+    margin-top: 5px;
+    padding-top: 0px;
+    border: solid 1px #E4E4E4;
+    border-radius: 2px;
+    background-color: #fff;
+    width: 65%;
+    float: left;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+    font-family: Raleway;
+    font-size:15px;
+
+}
+
+#custom-search-input button{
+    margin: 0px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 5px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 17px;
+}
+
+.input-group {
+  padding-top: 0px;
+}
+
+.btn-info .btn-lg {
+  width: 300px;
+}
+
+#bootstrap-overrides .btn {
+  width: 65%;
+  float: left;
+  border-radius: 2px;
+  padding: 10px;
+  font-family: Lato;
+}
+
+.btn-group {
+  width: 280px;
+  float: left;
+}
+
+
+#bootstrap-overrides .dropdown-menu {
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:10px;
+  position:relative;
+  list-style-type:none;
+  width: 65%;
+  font-family: Raleway;
+  overflow:scroll;
+}
+
+
+#bootstrap-overrides .dropdown-menu .divider {
+  margin: 0px;
+
+}
+
+
+#bootstrap-overrides .dropdown-menu > li > a {
+  color: #555;
+  line-height: 25px;
+  padding: 3px;
+}
+
+
+#bootstrap-overrides .dropdown-menu li .m-pub:hover:after {
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 15px;
+  border-left: 0;
+  border-bottom: 17px solid transparent;
+  border-top: 17px solid transparent;
+  border-left: 14px solid #333333;
+  transform: rotate(-90deg);
+  background: none;
+}
+
+#bootstrap-overrides #resta {
+  border-color: #DE8883;
+  border-radius: 0px;
+}
+
+#bootstrap-overrides #otherf {
+  border-color: #D8A692;
+  border-radius: 0px;
+}
+
+#bootstrap-overrides #services {
+  border-color: #C8C6AF;
+  border-radius: 0px;
+}
+
+#bootstrap-overrides #retail {
+  border-color: #8AB0AB;
+  border-radius: 0px;
+}
+
+#bootstrap-overrides #beauhea {
+  border-color: #4A7CA8;
+  border-radius: 0px;
+}
+
+/*restaurants / bars*/
+#bootstrap-overrides .btn-danger {
+  color: #fff;
+  background-color: #DE8883;
+  border-color: #BD645F;
+}
+
+#bootstrap-overrides .btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger {
+  color: #fff;
+  background-color: #C95260;
+  border-color: #AF3E4B;
+}
+
+/*otherfood*/
+#bootstrap-overrides .btn-primary {
+  color: #fff;
+  background-color: #D8A692;
+  border-color: #BC8772;
+}
+
+#bootstrap-overrides .btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #BC8772;
+  border-color: #A36F5B;
+}
+
+/*services*/
+#bootstrap-overrides .btn-warning {
+  color: #fff;
+  background-color: #C8C6AF;
+  border-color: #AFAD94;
+}
+
+#bootstrap-overrides .btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  color: #fff;
+  background-color: #AFAD94;
+  border-color: #96947B;
+}
+
+/*retail*/
+#bootstrap-overrides .btn-success {
+  color: #fff;
+  background-color: #8AB0AB;
+  border-color: #6A958F;
+}
+
+#bootstrap-overrides .btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: #6A958F;
+  border-color: #51817A;
+}
+
+/*mixed*/
+#bootstrap-overrides .btn-info {
+  color: #fff;
+  background-color: #4A7CA8;
+  border-color: #2F6391;
+}
+
+#bootstrap-overrides .btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #2F6391;
+  border-color: #205687;
+}
+
+
+#bootstrap-overrides #direct {
+  background-color: #eee;
+  height:142px;
+  text-align: left;
+  font-family: Abel;
+  font-size: 14px;
+  color: #000;
+  opacity: .9;
+}
+
+
+#bootstrap-overrides #cf {
+  color:#FFEDA0;
+  font-size:18px;
+  vertical-align: -2px;
+}
+
+#bootstrap-overrides #vac {
+  color:#BEC2C3;
+  font-size:18px;
+  vertical-align: -2px;
+}
+
+#bootstrap-overrides #par {
+  color:#74A974;
+  font-size:18px;
+  vertical-align: -2px;
+}
+
+#bootstrap-overrides #ot {
+
+  vertical-align: -4px;
+}
+
+
+
