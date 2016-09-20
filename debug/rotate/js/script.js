@@ -481,8 +481,54 @@ $(document).ready(function () {
     });
 
 
+    $(".erimgMain_arrowRight").click(function(e) {
+ e.stopPropagation();
+
+});
+
+ $("#source").click(function(e) {
+ e.stopPropagation();
+
+});
+
+ $("#direct").click(function(e) {
+ e.stopPropagation();
+
+});
 
 
+ $(".erimgMain_arrowLeft").click(function(e) {
+ e.stopPropagation();
+
+});
+
+
+ $("#lef").click(function(e) {
+ e.stopPropagation();
+
+});
+
+
+  $("#ju").click(function(e) {
+ e.stopPropagation();
+
+});
+
+    $("#info").click(function(e) {
+ e.stopPropagation();
+
+});
+
+    $("#aboutModal").click(function(e) {
+ e.stopPropagation();
+
+});
+
+
+
+
+
+// pics
 
  $("#67o").click(function(e) {
  e.stopPropagation();
@@ -622,49 +668,6 @@ if(feature.feature.properties.OBJECTID==113) {
 
 
 
-
-    $(".erimgMain_arrowRight").click(function(e) {
- e.stopPropagation();
-
-});
-
- $("#source").click(function(e) {
- e.stopPropagation();
-
-});
-
- $("#direct").click(function(e) {
- e.stopPropagation();
-
-});
-
-
- $(".erimgMain_arrowLeft").click(function(e) {
- e.stopPropagation();
-
-});
-
-
- $("#lef").click(function(e) {
- e.stopPropagation();
-
-});
-
-
-  $("#ju").click(function(e) {
- e.stopPropagation();
-
-});
-
-    $("#info").click(function(e) {
- e.stopPropagation();
-
-});
-
-    $("#aboutModal").click(function(e) {
- e.stopPropagation();
-
-});
 
 
 
