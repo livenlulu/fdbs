@@ -509,10 +509,6 @@ $(document).ready(function () {
 });
 
 
-  $("#ju").click(function(e) {
- e.stopPropagation();
-
-});
 
     $("#info").click(function(e) {
  e.stopPropagation();
@@ -520,6 +516,11 @@ $(document).ready(function () {
 });
 
     $("#aboutModal").click(function(e) {
+ e.stopPropagation();
+
+});
+
+    $(".jumbotron").click(function(e) {
  e.stopPropagation();
 
 });
@@ -665,9 +666,4 @@ if(feature.feature.properties.OBJECTID==113) {
 
 });
 });
-
-
-
-
-
 
