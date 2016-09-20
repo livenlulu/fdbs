@@ -169,6 +169,13 @@
   left: 0%;
 }
 
+#bootstrap-overrides .leaflet-popup {
+  margin-bottom: 0px;
+}
+
+#bootstrap-overrides .leaflet-popup-content {
+  margin: 13px 19px;
+}
 #bootstrap-overrides .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
     
