@@ -156,11 +156,12 @@
 <div class="col-md-12 col-xs-12" id="rot" style="padding-left: 0px; padding-right: 0px;">
 
 <div class="dwuserEasyRotator" id="rig" style="width: 75%; height: 100px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:true, lpp:'102-105-108-101-58-47-47-47-85-115-101-114-115-47-108-117-99-107-121-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1, randomize:true, audio_showController:false}" data-erName="fdba" data-erResponsiveRatio="{150:20}" data-erTID="{lrmtfad428104864473741}">
-	<div data-ertype="content" style="display: none;">
-	<ul data-erlabel="Main Category">
+	<div data-ertype="content">
+		<ul data-erlabel="Main Category" id="imga" style="position: relative; left:0;right:0;top:0;bottom:0; display: inline-block; height:100px;">
 	<li>
-		<img class="main" id="67o" src="img2/67o.jpeg" />
-		
+		<img class="main" id="67o" src="img2/67o.jpeg" onmouseover="hovertext('hgfh')" onmouseout="hoverouttext(this)"/>
+
+
 	</li>
 	<li>
 		<img class="main" id="hslc" src="img2/hslc.jpg" />
@@ -212,12 +213,12 @@
 
 </ul>
 </div>
-	<div data-ertype="layout" data-ertemplateName="NONE" style="">			
-			<div style="position: absolute; right:0;width:100px;bottom:0;height:20px; background:url(http://easyrotator.s3.amazonaws.com/1/i/rotator/bottom_shadow/r_s1.png) no-repeat; border-bottom: 1px solid #BBB;"></div>
-			<div class="erimgMain" style="position: absolute; left:0;right:0;top:0;bottom:0;" data-erConfig="{numTiles:6, scrollSize:6, scaleMode:'fillArea', imgType:'main', treatAsThumbs:true, addMainSlideLinks:false, __loopNextButton:false, arrowButtonMode:'rollover', alwaysPreviousButton:true}">
-				<div class="erimgMain_slides" style="position: absolute; left:0px; top:0; bottom:0; right:0px;">
+	<div data-ertype="layout" data-ertemplateName="NONE" style="" >			
+	<!-- 		<div style="position: absolute; right:0;width:100px;bottom:0;height:20px; background:url(http://easyrotator.s3.amazonaws.com/1/i/rotator/bottom_shadow/r_s1.png) no-repeat; border-bottom: 1px solid #BBB;"></div> -->
+			<div class="erimgMain" style="position: absolute; left:0;right:0;top:0;bottom:0; height:100px;" data-erConfig="{numTiles:6, scrollSize:6, scaleMode:'fillArea', imgType:'main', treatAsThumbs:true, addMainSlideLinks:false, __loopNextButton:false, arrowButtonMode:'rollover', alwaysPreviousButton:true}">
+				<div class="erimgMain_slides" style="position: absolute; left:0px; top:0; bottom:0; right:0px;height:100px;">
 					<div class="erimgMain_slide" style="color: #FFF;">
-						<div class="erimgMain_img spatzCustom_erimgMain_img" style="position: absolute; left: 0px; right: 0px; top:0; bottom:0px;"></div>
+						<div class="erimgMain_img spatzCustom_erimgMain_img" style="position: absolute; left: 0px; right: 0px; top:0; bottom:0px;height:100px;"></div>
 						<div class="textBox" style="position: absolute; padding: 0; color: #333; font-family: Verdana, sans-serif;">
 							<p class="erimgMain_title" style="line-height: 14px; font-size: 11px; margin: 0; padding: 0;"></p>
 						</div>
@@ -262,10 +263,12 @@
   	<script src="data/services.geojson.js"></script>
   	<script src="data/retail.geojson.js"></script>
   	<script src="data/beauhea.geojson.js"></script>
+  	<script src="data/biz.geojson.js"></script>
   	<script src="data/others.geojson.js"></script>
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   	<script type="text/javascript" src="js/rotator.js"></script>

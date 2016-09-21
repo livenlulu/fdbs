@@ -21,8 +21,8 @@ var geojson;
   return false;
     });
 
-      function rotate(ev) {
-      if (ev.buttons === 0) return;
+function rotate(ev) {
+    if (ev.buttons === 0) return;
       var angle = ev.target.valueAsNumber;
       map.setBearing(angle);
     }
@@ -329,7 +329,7 @@ $(document).ready(function () {
 });
 
 
-
+$(document).ready(function () {
   var listIt = "";
     for (var i = 0; i < otherf.features.length; i++){
       listIt += "<li><a id='" + otherf.features[i].properties.OBJECTID+ "'>" +  otherf.features[i].properties.Organization + "&nbsp;" + "<br>" + "<h6>" + otherf.features[i].properties.Address + "&nbsp;" + "| " + otherf.features[i].properties.Category + "</h6>" + "</a></li>" + "<li role=" + "separator" + " class=" + "divider" +"></li>";
@@ -362,7 +362,7 @@ $(document).ready(function () {
       }
   });
 });
-
+});
 
 
 $(document).ready(function () {
@@ -421,7 +421,6 @@ $(document).ready(function () {
 
     });
     
-
     }
     $("#retail").html(listIt);
 
@@ -439,7 +438,6 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-
 
   var listIt = "";
     for (var i = 0; i < beauhea.features.length; i++){
@@ -472,18 +470,15 @@ $(document).ready(function () {
       }
 });
 });
+});
 
-  });
+//avoidclick
+$("#map").on('click', function(f) {
+  f.stopPropagation();
+});
 
-
-    $("#map").on('click', function(f) {
-      f.stopPropagation();
-    });
-
-
-    $(".erimgMain_arrowRight").click(function(e) {
+$(".erimgMain_arrowRight").click(function(e) {
  e.stopPropagation();
-
 });
 
  $("#source").click(function(e) {
@@ -493,37 +488,97 @@ $(document).ready(function () {
 
  $("#direct").click(function(e) {
  e.stopPropagation();
-
 });
 
 
  $(".erimgMain_arrowLeft").click(function(e) {
  e.stopPropagation();
-
 });
 
 
  $("#lef").click(function(e) {
  e.stopPropagation();
-
 });
 
 
-
-    $("#info").click(function(e) {
+ $("#info").click(function(e) {
  e.stopPropagation();
-
 });
 
-    $("#aboutModal").click(function(e) {
+ $("#aboutModal").click(function(e) {
  e.stopPropagation();
-
 });
 
-    $(".jumbotron").click(function(e) {
+ $(".jumbotron").click(function(e) {
  e.stopPropagation();
-
 });
+
+
+//
+
+// var dir = "img3/";
+// var fileextension = ".jpg";
+// var lis ="";
+
+// $.ajax({
+//     url: dir,
+//     success: function (data) {
+     
+//      $(data).find("a:contains(" + fileextension + ")").each(function () {
+//         var filename = $(this).text();
+//         var fn = parseInt(filename);
+
+//         lis += "<li><img id='" + fn + "' src='" + dir + filename + "'></li>";
+          
+
+//         $("#imga").html(lis);
+      
+//         console.log(lis);
+
+//         $("#imga li img").click(function(e){ 
+//           e.stopPropagation();
+      
+//       var id = $(this)[0].id;
+//       console.log(id);
+//         geojson1.eachLayer(function(feature){
+//           if(feature.feature.properties.OBJECTID==id) {
+//           feature.openPopup();
+//         }
+
+//         });
+        
+//         geojson2.eachLayer(function(feature){
+//           if(feature.feature.properties.OBJECTID==id) {
+//           feature.openPopup();
+//         }
+//         });
+     
+//         geojson3.eachLayer(function(feature){
+//           if(feature.feature.properties.OBJECTID==id) {
+//           feature.openPopup();
+//         }
+//         });
+      
+//         geojson4.eachLayer(function(feature){
+//           if(feature.feature.properties.OBJECTID==id) {
+//           feature.openPopup();
+//         }
+//         });
+      
+//       geojson5.eachLayer(function(feature){
+//           if(feature.feature.properties.OBJECTID==id) {
+//           feature.openPopup();
+//         }
+//         });
+
+//     });
+//   });
+//   }
+// });
+
+
+
+  
 
 
 
@@ -666,4 +721,6 @@ if(feature.feature.properties.OBJECTID==113) {
 
 });
 });
+
+
 
