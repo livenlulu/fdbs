@@ -1,6 +1,8 @@
   body, html {
     font-family: Lato;
     font-size: 13px;
+    overflow-x: hidden;
+    font-weight: 300;
   }
 
   #bootstrap-overrides #source a {
@@ -26,6 +28,15 @@
     font-weight: 300;
   }
 
+  #bootstrap-overrides h1 {
+    font-size: 13px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: Roboto;
+    color: #fff;
+    /*font-weight: 400;*/
+  } 
+
   #bootstrap-overrides h4 {
     font-size: 11px;
     margin-top: 0px;
@@ -38,11 +49,9 @@
   #bootstrap-overrides li { 
     cursor: pointer; 
     cursor: hand; 
+
   }
 
-  #bootstrap-overrides h5 {
-    margin-bottom: 5px;
-  }
 
   #bootstrap-overrides .main { 
     cursor: pointer; 
@@ -136,9 +145,13 @@
     width: 80%;
     height: 600px;
     border: solid 1px #ccc;
-    min-width: 230px;
+    min-width: 205px;
   }
 
+  img {
+    opacity: 1;
+    vertical-align: middle;
+  }
 
   #bootstrap-overrides .leaflet-control-zoom {
     z-index: 200;
@@ -250,7 +263,7 @@
   border-radius: 2px;
   padding: 10px;
   font-family: Lato;
-  min-width: 160px;
+  min-width: 140px;
 }
 
 .btn-group {
@@ -268,6 +281,7 @@
   width: 72%;
   font-family: Raleway;
   overflow:scroll;
+  min-width: 140px;
 }
 
 
@@ -419,12 +433,13 @@
   opacity: .9;
   float: left;
   border-radius: 2px;
-  min-width: 160px;
+  min-width: 140px;
   overflow:scroll;
-  margin-bottom: 1px;
+  margin-bottom: 0px;
 }
-#bootstrap-overrides #rot {
-  padding-top: 20px;
+
+#bootstrap-overrides #caro {
+  padding-top: 0px;
   padding-bottom: 30px;
 }
 
@@ -453,6 +468,11 @@
   margin-bottom: 0px;
 }
 
+#bootstrap-overrides #info:hover {
+  background-color: #bbb;
+  opacity: 0.9;
+}
+
 
 
 
@@ -479,7 +499,7 @@
   font-family: Abel;
   text-align: left;
   font-size: 12px;
-  min-width: 160px;
+  min-width: 140px;
   float: left;
   margin-bottom: 0px;
 }
@@ -510,5 +530,13 @@
 
 #bootstrap-overrides #imga {
   height: 100px;
-  display: inline;
 }
+
+.wrapper {
+    max-width: 75%;
+    padding: 0 0px 40px 0px;
+    margin: auto;
+}
+
+
+
