@@ -1,5 +1,5 @@
-### Responsive Interactive Map for Frederick Douglass Boulevard
-#### Harlem's Gateway & Restaurant Row
+## Responsive Interactive Map for Frederick Douglass Boulevard
+### Harlem's Gateway & Restaurant Row
 
 Using rotated leaflet map with bootstrap components and slider effects
 
