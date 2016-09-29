@@ -1,8 +1,6 @@
   body, html {
     font-family: Lato;
     font-size: 13px;
-    overflow-x: hidden;
-    font-weight: 300;
   }
 
   #bootstrap-overrides #source a {
@@ -28,15 +26,6 @@
     font-weight: 300;
   }
 
-  #bootstrap-overrides h1 {
-    font-size: 13px;
-    margin-top: 2px;
-    margin-bottom: 5px;
-    font-family: Roboto;
-    color: #fff;
-    /*font-weight: 400;*/
-  } 
-
   #bootstrap-overrides h4 {
     font-size: 11px;
     margin-top: 0px;
@@ -49,9 +38,11 @@
   #bootstrap-overrides li { 
     cursor: pointer; 
     cursor: hand; 
-
   }
 
+  #bootstrap-overrides h5 {
+    margin-bottom: 5px;
+  }
 
   #bootstrap-overrides .main { 
     cursor: pointer; 
@@ -145,13 +136,9 @@
     width: 80%;
     height: 600px;
     border: solid 1px #ccc;
-    min-width: 205px;
+    min-width: 230px;
   }
 
-  img {
-    opacity: 1;
-    vertical-align: middle;
-  }
 
   #bootstrap-overrides .leaflet-control-zoom {
     z-index: 200;
@@ -182,13 +169,6 @@
   left: 0%;
 }
 
-#bootstrap-overrides .leaflet-popup {
-  margin-bottom: 0px;
-}
-
-#bootstrap-overrides .leaflet-popup-content {
-  margin: 13px 19px;
-}
 #bootstrap-overrides .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
     
@@ -263,13 +243,8 @@
   border-radius: 2px;
   padding: 10px;
   font-family: Lato;
-<<<<<<< HEAD
-  min-width: 140px;
-
-=======
-  min-width: 160;
+  min-width: 160px;
 }
->>>>>>> parent of 6b204ab... Merge branch 'gh-pages'
 
 .btn-group {
   width: 280px;
@@ -286,7 +261,6 @@
   width: 72%;
   font-family: Raleway;
   overflow:scroll;
-  min-width: 140px;
 }
 
 
@@ -438,13 +412,12 @@
   opacity: .9;
   float: left;
   border-radius: 2px;
-  min-width: 140px;
+  min-width: 160px;
   overflow:scroll;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
 }
-
-#bootstrap-overrides #caro {
-  padding-top: 0px;
+#bootstrap-overrides #rot {
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 
@@ -473,11 +446,6 @@
   margin-bottom: 0px;
 }
 
-#bootstrap-overrides #info:hover {
-  background-color: #bbb;
-  opacity: 0.9;
-}
-
 
 
 
@@ -504,7 +472,7 @@
   font-family: Abel;
   text-align: left;
   font-size: 12px;
-  min-width: 140px;
+  min-width: 160px;
   float: left;
   margin-bottom: 0px;
 }
@@ -533,15 +501,6 @@
 }
 
 
-#bootstrap-overrides #imga {
-  height: 100px;
-}
-
-.wrapper {
-    max-width: 75%;
-    padding: 0 0px 40px 0px;
-    margin: auto;
-}
 
 
 
